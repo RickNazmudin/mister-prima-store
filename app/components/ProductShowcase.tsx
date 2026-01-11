@@ -7,39 +7,36 @@ const products = [
     name: "Sido Muncul Libidione",
     description:
       "Produk herbal ini mengandung berbagai zat-zat alami yang memiliki banyak manfaat bagi kesehatan vitalitas pria. Contohnya ginkgo biloba folium, tribulus pasak bumi, hingga panax ginseng (30 kapsul)",
-    normalPrice: "Rp 162.286",
-    promoPrice: "Rp 113.600",
+    normalPrice: "Rp 120.690",
+    promoPrice: "Rp 105.000",
     image: "/images/Sido-Muncul.png",
-    discount: "30%",
+    discount: "13%",
     bpomNumber: "TR102310881", // ← Ganti dengan nomor BPOM asli
-    orderLink:
-      "https://shopee.co.id/M10-Headset-Bluetooth-Full-Bass-Stereo-3500mAh-Power-Bank-Wireless-Earphone-Tahan-Air-TWS-With-Mic-i.891117459.23460038096", // ← Ganti dengan link affiliate khusus (misal Shopee/Tokopedia affiliate)
+    orderLink: "https://s.shopee.co.id/3LKUOo8b0I", // ← Ganti dengan link affiliate khusus (misal Shopee/Tokopedia affiliate)
   },
   {
     id: 2,
     name: "Herbamojo 30 Kapsul",
     description:
       "Herbamojo 30 Kapsul adalah obat herbal yang cukup efektif dalam mengatasi disfungsi ereksi. Obat ini memiliki banyak manfaat bagi pria, terutama dalam meningkatkan stamina pria dan meningkatkan sistem imun. Obat kuat ini mengandung 7 kandungan ekstrak herbal, seperti jahe merah, maca, ginseng, pasak bumi, cabe jawa, hingga purwoceng. ",
-    normalPrice: "Rp 233.562",
-    promoPrice: "Rp 170.500",
+    normalPrice: "Rp 162.000",
+    promoPrice: "Rp 149.000",
     image: "/images/herbamojo.jpg",
-    discount: "27%",
+    discount: "8%",
     bpomNumber: "TR182322231", // ← Contoh, ganti dengan asli
-    orderLink:
-      "https://wa.me/628123456789?text=Saya%20mau%20pesan%20Herbamojo%2030%20Kapsul%20promo", // ← Ganti dengan link affiliate khusus
+    orderLink: "https://s.shopee.co.id/20p6npVTEQ", // ← Ganti dengan link affiliate khusus
   },
   {
     id: 3,
-    name: "Herbapoten 10 Tablet",
+    name: "HERBAPOTEN 30 KAPLET",
     description:
-      "Herbapoten 10 Tablet mengandung ekstrak Eurycoma longifolia (pasak bumi) dengan dosis 200 mg yang dapat membantu memelihara stamina pria. Selain itu, obat ini juga bisa membantu mengatasi masalah gangguan seksual seperti impoten dan disfungsi ereksi. ",
-    normalPrice: "Rp 126.667",
-    promoPrice: "Rp 95.000",
+      "HERBAPOTEN 30 KAPLET mengandung ekstrak Eurycoma longifolia (pasak bumi) dengan dosis 200 mg yang dapat membantu memelihara stamina pria. Selain itu, obat ini juga bisa membantu mengatasi masalah gangguan seksual seperti impoten dan disfungsi ereksi. ",
+    normalPrice: "Rp 321.700",
+    promoPrice: "Rp 248.900",
     image: "/images/Herbapoten-10-Tablet.jpg",
-    discount: "25%",
+    discount: "23%",
     bpomNumber: "TR192530591",
-    orderLink:
-      "https://wa.me/628123456789?text=Saya%20mau%20pesan%20Herbapoten%2010%20Tablet%20promo", // ← Ganti dengan link affiliate khusus
+    orderLink: "https://s.shopee.co.id/6fawNSRSTa", // ← Ganti dengan link affiliate khusus
   },
   {
     id: 4,
