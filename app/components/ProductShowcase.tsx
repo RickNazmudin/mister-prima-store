@@ -38,96 +38,93 @@ const products = [
     bpomNumber: "TR192530591",
     orderLink: "https://s.shopee.co.id/6fawNSRSTa", // ← Ganti dengan link affiliate khusus
   },
-  {
-    id: 4,
-    name: "Biosan 275 mg 6 Tablet",
-    description:
-      "Rekomendasi obat kuat berbahan herbal berikutnya ada Biosan 275 mg 6 Tablet. Obat ini mengandung ekstrak Tribulus terrestris (tanaman rujak polo) yang berguna untuk membantu memelihara stamina pria",
-    normalPrice: "Rp 182.254",
-    promoPrice: "Rp 129.400",
-    image: "/images/Bisan-275mg-6Tablet.png",
-    discount: "29%",
-    bpomNumber: "TR152588141",
-    orderLink:
-      "https://wa.me/628123456789?text=Saya%20mau%20pesan%20Biosan%20275%20mg%206%20Tablet%20promo", // ← Ganti dengan link affiliate khusus
-  },
-  {
-    id: 5,
-    name: "X-Gra 150 mg 10 Kapsul",
-    description:
-      "X-Gra 150 mg 10 Kapsul adalah obat herbal yang bermanfaat untuk membantu meningkatkan stamina dan kesegaran tubuh, serta mengatasi disfungsi ereksi. Komposisi X-Gra 150 mg 10 Kapsul terdiri dari berbagai ekstrak herbal pilihan, Contohnya, ekstrak Ganoderma lucidum (jamur lingzhi), Eurycomae radix (pasak bumi), ginseng, hingga Retrofracti fructus (buah cabe jawa).",
-    normalPrice: "Rp 50.000",
-    promoPrice: "Rp 29.000",
-    image: "/images/X-Gra-150mg-10Kapsul.png",
-    discount: "30%",
-    bpomNumber: "FF142300581",
-    orderLink:
-      "https://wa.me/628123456789?text=Saya%20mau%20pesan%20X-Gra%20150%20mg%2010%20Kapsul%20promo", // ← Ganti dengan link affiliate khusus
-  },
+  // {
+  //   id: 4,
+  //   name: "Biosan 275 mg 6 Tablet",
+  //   description:
+  //     "Rekomendasi obat kuat berbahan herbal berikutnya ada Biosan 275 mg 6 Tablet. Obat ini mengandung ekstrak Tribulus terrestris (tanaman rujak polo) yang berguna untuk membantu memelihara stamina pria",
+  //   normalPrice: "Rp 182.254",
+  //   promoPrice: "Rp 129.400",
+  //   image: "/images/Bisan-275mg-6Tablet.png",
+  //   discount: "29%",
+  //   bpomNumber: "TR152588141",
+  //   orderLink:
+  //     "https://wa.me/628123456789?text=Saya%20mau%20pesan%20Biosan%20275%20mg%206%20Tablet%20promo", // ← Ganti dengan link affiliate khusus
+  // },
+  // {
+  //   id: 5,
+  //   name: "X-Gra 150 mg 10 Kapsul",
+  //   description:
+  //     "X-Gra 150 mg 10 Kapsul adalah obat herbal yang bermanfaat untuk membantu meningkatkan stamina dan kesegaran tubuh, serta mengatasi disfungsi ereksi. Komposisi X-Gra 150 mg 10 Kapsul terdiri dari berbagai ekstrak herbal pilihan, Contohnya, ekstrak Ganoderma lucidum (jamur lingzhi), Eurycomae radix (pasak bumi), ginseng, hingga Retrofracti fructus (buah cabe jawa).",
+  //   normalPrice: "Rp 50.000",
+  //   promoPrice: "Rp 29.000",
+  //   image: "/images/X-Gra-150mg-10Kapsul.png",
+  //   discount: "30%",
+  //   bpomNumber: "FF142300581",
+  //   orderLink:
+  //     "https://wa.me/628123456789?text=Saya%20mau%20pesan%20X-Gra%20150%20mg%2010%20Kapsul%20promo", // ← Ganti dengan link affiliate khusus
+  // },
   {
     id: 6,
     name: "Konilife Fertilive 30 Kapsul",
     description:
       "Konilife Fertilive 30 Kapsul merupakan obat tradisional atau herbal yang bisa digunakan sebagai obat kuat pria. Produk ini mengandung ekstrak akar ashwagandha yang efektif untuk membantu memelihara stamina pria.",
-    normalPrice: "Rp 240.000",
-    promoPrice: "Rp 168.000",
+    // normalPrice: "Rp 240.000",
+    promoPrice: "Rp 216.500",
     image: "/images/Konilife-Fertilive-30Kapsul.png",
-    discount: "30%",
+    // discount: "30%",
     bpomNumber: "TR212346461",
-    orderLink:
-      "https://wa.me/628123456789?text=Saya%20mau%20pesan%20Konilife%20Fertilive%2030%20Kapsul%20promo", // ← Ganti dengan link affiliate khusus
+    orderLink: "https://s.shopee.co.id/7pmtu2MfDD", // ← Ganti dengan link affiliate khusus
   },
-  {
-    id: 7,
-    name: "Unigen TR 15 Kapsul",
-    description:
-      "Obat ini memiliki kandungan ekstrak kayu muira puama 250 mg, ekstrak daun damiana 100 mg, ekstrak akar panax ginseng 25 mg, setra ekstrak buah polo 100 mg.  Kandungan tersebut mampu membantu untuk meningkatkan vitalitas pria.",
-    normalPrice: "Rp 341.067",
-    promoPrice: "Rp 255.800",
-    image: "/images/UnigenTR-15Kapsul.png",
-    discount: "25%",
-    bpomNumber: "TR202340261",
-    orderLink:
-      "https://wa.me/628123456789?text=Saya%20mau%20pesan%20Unigen%20TR%2015%20Kapsul%20promo", // ← Ganti dengan link affiliate khusus
-  },
-  {
-    id: 8,
-    name: "Borobudur Tongli 100 Kapsul",
-    description:
-      "Borobudur Tongli 100 kapsul merupakan obat kuat dengan kandungan ekstrak pasak bumi atau tongkat ali (eurycomae radix extract) 550 mg, yang berkhasiat untuk membantu memelihara stamina pria. ",
-    normalPrice: "Rp 140.000",
-    promoPrice: "Rp 105.000",
-    image: "/images/Borobudur-Tongli-100Kapsul.png",
-    discount: "25%",
-    bpomNumber: "TR042339151",
-    orderLink:
-      "https://wa.me/628123456789?text=Saya%20mau%20pesan%20Borobudur%20Tongli%20100%20Kapsul%20promo", // ← Ganti dengan link affiliate khusus
-  },
+  // {
+  //   id: 7,
+  //   name: "Unigen TR 15 Kapsul",
+  //   description:
+  //     "Obat ini memiliki kandungan ekstrak kayu muira puama 250 mg, ekstrak daun damiana 100 mg, ekstrak akar panax ginseng 25 mg, setra ekstrak buah polo 100 mg.  Kandungan tersebut mampu membantu untuk meningkatkan vitalitas pria.",
+  //   normalPrice: "Rp 341.067",
+  //   promoPrice: "Rp 255.800",
+  //   image: "/images/UnigenTR-15Kapsul.png",
+  //   discount: "25%",
+  //   bpomNumber: "TR202340261",
+  //   orderLink:
+  //     "https://wa.me/628123456789?text=Saya%20mau%20pesan%20Unigen%20TR%2015%20Kapsul%20promo", // ← Ganti dengan link affiliate khusus
+  // },
+  // {
+  //   id: 8,
+  //   name: "Borobudur Tongli 100 Kapsul",
+  //   description:
+  //     "Borobudur Tongli 100 kapsul merupakan obat kuat dengan kandungan ekstrak pasak bumi atau tongkat ali (eurycomae radix extract) 550 mg, yang berkhasiat untuk membantu memelihara stamina pria. ",
+  //   normalPrice: "Rp 140.000",
+  //   promoPrice: "Rp 105.000",
+  //   image: "/images/Borobudur-Tongli-100Kapsul.png",
+  //   discount: "25%",
+  //   bpomNumber: "TR042339151",
+  //   orderLink:
+  //     "https://wa.me/628123456789?text=Saya%20mau%20pesan%20Borobudur%20Tongli%20100%20Kapsul%20promo", // ← Ganti dengan link affiliate khusus
+  // },
   {
     id: 9,
     name: "Srongpas Gingseng 2 Kapsul",
     description:
       "Srongpas Ginseng mengandung pasak bumi dan ginseng yang baik untuk memperkuat stamina pria. Ginseng bermanfaat untuk meningkatkan stamina, libido, dan gairah seks pria Selain itu, jenis ginseng merah juga kerap menjadi obat alternatif untuk mengatasi impotensi.Baik untuk pria yang sehat maupun mereka mempunyai kecenderungan mengalami ketidaksuburan. Sementara itu, bagian kulit kayu dan akar pasak bumi kerap menjadi obat alternatif untuk kondisi disfungsi ereksi, meningkatkan stamina, dan meningkatkan libido.",
-    normalPrice: "Rp 3.571",
-    promoPrice: "Rp 2.500",
+    // normalPrice: "Rp 3.571",
+    promoPrice: "Rp 3.100",
     image: "/images/Srongpas-Gingseng-2Kapsul.png",
-    discount: "30%",
+    // discount: "30%",
     bpomNumber: "TR173306991",
-    orderLink:
-      "https://wa.me/628123456789?text=Saya%20mau%20pesan%20Srongpas%20Gingseng%202%20Kapsul%20promo", // ← Ganti dengan link affiliate khusus
+    orderLink: "https://s.shopee.co.id/30he9Z3kaS", // ← Ganti dengan link affiliate khusus
   },
   {
     id: 10,
-    name: "Viagra MMC original isi 10 Tablet",
+    name: "Viagra MMC original",
     description:
       "Viagra MMC original adalah obat kuat pria yang mengandung sildenafil citrate. Kandungan ini bekerja dengan melebarkan pembuluh darah dan meningkatkan aliran darah ke penis saat terjadi rangsangan seksual.",
-    normalPrice: "Rp 152.778",
-    promoPrice: "Rp 110.000",
+    normalPrice: "Rp 300.000",
+    promoPrice: "Rp 274.000",
     image: "/images/viagra-mmc.png",
-    discount: "28%",
+    discount: " 9%",
     bpomNumber: "DKI1690401417A1",
-    orderLink:
-      "https://wa.me/628123456789?text=Saya%20mau%20pesan%20Viagra%20MMC%20100%20mg%201%20Tablet%20promo", // ← Ganti dengan link affiliate khusus
+    orderLink: "https://s.shopee.co.id/1LZQAs9fle", // ← Ganti dengan link affiliate khusus
   },
   // Tambahkan produk baru di sini nanti
 ];
