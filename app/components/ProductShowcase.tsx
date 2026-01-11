@@ -126,6 +126,42 @@ const products = [
     bpomNumber: "DKI1690401417A1",
     orderLink: "https://s.shopee.co.id/1LZQAs9fle", // ← Ganti dengan link affiliate khusus
   },
+  {
+    id: 11,
+    name: "Tongkat Ali 1000 mg",
+    description:
+      "Tongkat Ali 1000 mg merupakan suplemen alami yang mengandung ekstrak tongkat ali (Eurycoma longifolia) yang baik untuk memperkuat stamina pria. Kandungan ini dapat membantu meningkatkan vitalitas dan kesehatan pria secara keseluruhan.",
+    normalPrice: "Rp 269.800",
+    promoPrice: "Rp 80.940",
+    image: "/images/tongkat-ali.png",
+    discount: "70%",
+    bpomNumber: "NA11241900041",
+    orderLink: "https://s.shopee.co.id/50SiYeRCA8", // ← Ganti dengan link affiliate khusus
+  },
+  {
+    id: 12,
+    name: "MR. VIGOR",
+    description:
+      "100% Herbal Alami, tanpa obat kimia keras,Bisa dikonsumsi setiap hari tanpa ketergantungan, Formula 5 herbal sinergis, saling memperkuat efek satu sama lain, Efek bertahap & tahan lama, bukan sensasi sesaat, Bukan cuma untuk ranjang — bantu stamina kerja, fisik, dan daya tahan tubuh,Dikemas elegan, maskulin & premium — cocok untuk hadiah suamiria.",
+    normalPrice: "Rp 319.000",
+    promoPrice: "Rp 159.500",
+    image: "/images/mr-vigor.png",
+    discount: "50%",
+    bpomNumber: "TR253001471",
+    orderLink: "https://s.shopee.co.id/7AXDAQrIsn", // ← Ganti dengan link affiliate khusus
+  },
+  {
+    id: 13,
+    name: "Keloreena Kapsul Daun Kelor",
+    description:
+      'Keloreena adalah suplemen herbal berkualitas tinggi yang terbuat dari ekstrak daun kelor murni (Moringa Oleifera). Daun kelor telah lama dikenal sebagai "pohon keajaiban" karena kaya akan nutrisi penting seperti vitamin, mineral, dan antioksidan yang sangat bermanfaat bagi kesehatan tubuh, terutama kesehatan seksual pria.',
+    // normalPrice: "Rp 450.000",
+    promoPrice: "Rp 103.000",
+    image: "/images/kelorena.png",
+    // discount: "50%",
+    bpomNumber: "TR243009491",
+    orderLink: "https://s.shopee.co.id/8KjAZ7HFoY", // ← Ganti dengan link affiliate khusus
+  },
   // Tambahkan produk baru di sini nanti
 ];
 
